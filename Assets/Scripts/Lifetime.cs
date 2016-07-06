@@ -5,6 +5,6 @@ public class Lifetime : MonoBehaviour {
 
     public float secondsToLive = 3;
 	void Awake() {
-        Destroy(gameObject, 1);
+        Destroy(gameObject, secondsToLive);
     }
 }
